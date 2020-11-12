@@ -289,10 +289,10 @@ public class parseJson1 {
                     + "<tablename> petabase tablaname\r\n"
                     + "<brokers> is a list of one or more Kafka brokers\r\n" +
                     " <groupId> is a consumer group name to consume from topics\r\n" +
-                    "  <topics> is a list of one or more kafka topics to consume from\r\n" +
+                    " <topics> is a list of one or more kafka topics to consume from\r\n" +
                     " <connection> connect to database\r\n"
                     +"<keyColumn>  key to identify record ,such as mineCodeAndDeviceNo:10, mineCodeAndDeviceNo:20 "
-                    + "if keyName not exists  ,such as key:t1:{},t2:{} ;make it  \n";
+                    + "if keyName not exists  ,such as key:t1:{},t2:{} ;make it  empty\n";
            System.err.println(usage);
             System.exit(1);
         }
